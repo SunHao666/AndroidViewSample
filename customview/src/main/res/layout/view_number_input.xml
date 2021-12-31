@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/mLeftBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_btn_left_bg"
+        android:text="-" />
+
+    <EditText
+        android:id="@+id/mNumberEt"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/selector_edit_num_bg"
+        android:hint="0" />
+
+    <Button
+        android:id="@+id/mRightBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_btn_right_bg"
+        android:text="+" />
+</LinearLayout>

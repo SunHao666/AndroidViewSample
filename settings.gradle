@@ -1,0 +1,3 @@
+rootProject.name = "AndroidViewSample"
+include ':app'
+include ':customview'

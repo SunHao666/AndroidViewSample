@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumberInputView">
+        <attr name="min" format="integer"/><!--最小值-->
+        <attr name="max" format="integer"/><!--最大值-->
+        <attr name="step" format="integer"/><!--递增递减步数-->
+        <attr name="disable" format="boolean"/><!--加减号是否可点击-->
+        <attr name="defaultValue" format="integer"/><!--最小值-->
+        <attr name="textSize" format="integer|reference"/><!--字体大小-->
+        <attr name="btnBackground" format="reference"/><!--左右btn的背景色-->
+    </declare-styleable>
+</resources>
